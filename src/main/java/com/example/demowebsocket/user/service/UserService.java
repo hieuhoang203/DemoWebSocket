@@ -1,8 +1,8 @@
-package com.example.demowebsocket.service;
+package com.example.demowebsocket.user.service;
 
 import com.example.demowebsocket.constant.Status;
-import com.example.demowebsocket.entity.User;
-import com.example.demowebsocket.repositories.UserRepository;
+import com.example.demowebsocket.user.entity.User;
+import com.example.demowebsocket.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

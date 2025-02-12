@@ -1,9 +1,7 @@
-package com.example.demowebsocket.entity;
+package com.example.demowebsocket.user.entity;
 
 import com.example.demowebsocket.constant.Status;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;

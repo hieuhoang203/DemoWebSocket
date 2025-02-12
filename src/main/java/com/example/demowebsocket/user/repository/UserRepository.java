@@ -1,7 +1,7 @@
-package com.example.demowebsocket.repositories;
+package com.example.demowebsocket.user.repository;
 
 import com.example.demowebsocket.constant.Status;
-import com.example.demowebsocket.entity.User;
+import com.example.demowebsocket.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
