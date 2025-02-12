@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: DemoWebSocket
+  session:
+    store-type: none
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: uke9bdc1q7yzsj45
+#    password: 2TwHxMY1SEQdB1PSDdUw
+#    url: jdbc:mysql://uke9bdc1q7yzsj45:2TwHxMY1SEQdB1PSDdUw@buq75upw3zhrmlmmhqmk-mysql.services.clever-cloud.com:3306/buq75upw3zhrmlmmhqmk
+    url: jdbc:mysql://localhost:3306/websocket?characterEncoding=utf8
+    username: root
+    password: 08092003
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+    show-sql: true
+  sql:
+    init:
+      encoding: UTF-8
+server:
+  port: 8903
