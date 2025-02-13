@@ -25,7 +25,7 @@ public class ChatMessageService {
                 true
         ).orElseThrow();
         chatMessage.setId(UUID.randomUUID().toString());
-        chatMessage.setChatId(String.valueOf(chatId));
+        chatMessage.setChatId(chatId);
         return chatMessageRepository.save(chatMessage);
     }
 
